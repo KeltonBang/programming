@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+header, footer {
+    background-color: #333;
+    padding: 20px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo {
+    font-size: 2px;
+    font-weight: bold;
+}
+
+.explore-text {
+    position: absolute;
+    left: 27.7%;
+    transform: translateX(-50%);
+    top: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: gold;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration:none;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+
+.login {
+    background-color: #555;
+    color: #fff;
+}
+
+.signup {
+    background-color: #00B4D8;
+    color: #fff;
+}
+
+/* Dropdown button */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.chevron {
+    margin-left: 5px;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text p {
+    color: gray;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.hero-text h1 {
+    font-size: 38px;
+}
+
+.highlight {
+    color: #f3f7f8;
+}
+
+.highlight-projects {
+    color: #00B4D8;
+}
+
+.hero-buttons button {
+    margin-right: 20px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.sign-up {
+    background-color: #28a745;
+    color: #000;
+    font-weight: bold;
+}
+
+.learn-more {
+    background-color: #000;
+    color: #fff;
+}
+/* Hero Image */
+.hero-image {
+    display: grid;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.image-caption {
+    font-size: 20px;
+    color: #fff;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border: none
+}
+
+/* footer section */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.footer-links a {
+    color: #fff;
+    font-weight: bold;
+    background-color: #444;
+    border: 0.5px solid #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.footer-link a{
+    width: 100%;
+}
+/* header logo img */
+
+.codepen-logo {
+    display: flex;
+    height: 40px;
+    width: 6px;
+}
